@@ -104,6 +104,13 @@ h3 {
   text-align:center;
 }
 
+h4 {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+  color:#3b4a71;
+  text-align:center;
+}
+
 p {
   font-size: 20px;
   text-indent: 30px;
@@ -190,6 +197,12 @@ p {
   justify-content: left;
   gap: 100px;
   padding: 100px;
+}
+
+.center {
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .coursework {
@@ -419,6 +432,7 @@ input[type=submit]:hover {
 .same {
   width: 100%;
   object-fit: cover;
+  align:center;
 }
 
 button{
